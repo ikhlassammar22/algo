@@ -1,10 +1,17 @@
 ALGORITHM algorithm_name
 VAR
     ch:chaine de caractere;
+    c:CHAR;
     i ,v,m, n:entier;
 BEGIN
-    ecrire("saisir une chaine ");
-    lire(ch)
+   ch:=""
+     REPEAT
+   
+       ecrire("saisir uncaractere ");
+    
+        lire(c)
+        ch:=ch+c;
+     UNTIL (c="."")
      n:=0;
      m:=0;
      v:=0;
