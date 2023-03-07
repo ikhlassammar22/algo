@@ -28,7 +28,7 @@ FOR i FROM 0 TO n STEP i++  DO
         j++;
     END_IF
  END_WHILE
- if j==set2.length and tr=false then
+ if j=>set2.length and tr=false then
  result+=set1[i];
  end if
 
